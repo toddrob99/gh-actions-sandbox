@@ -17,4 +17,4 @@ jobs:
           requirements: twine setuptools wheel
           build: true
           password: ${{ secrets.PYPI_TOKEN }}
-          upload: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/tags') }}
+          upload: true
