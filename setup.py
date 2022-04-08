@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="GitHub Actions Sandbox",
-    version=main_ns['__version__'],
+    version=main_ns['VERSION'],
     author="Todd Roberts",
     author_email="toddrob@gmail.com",
     description="Sandbox for GitHub Actions",
